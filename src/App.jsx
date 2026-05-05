@@ -7,12 +7,10 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
 
-const courses = [
-  { id: "c1", title: "React Basics", level: "Beginner", duration: "2h", topics: ["JSX", "Props", "Components"] },
-  { id: "c2", title: "Modern JavaScript", level: "Beginner", duration: "3h", topics: ["map()", "destructuring", "spread"] },
-  { id: "c3", title: "React State", level: "Intermediate", duration: "2h", topics: ["useState", "events"] },
-  { id: "c4", title: "React Router", level: "Intermediate", duration: "2h", topics: ["Routes", "Link", "params"] },
-  { id: "c5", title: "UI Patterns", level: "Advanced", duration: "2h", topics: ["reusability", "composition"] },
+const initialTasks = [
+  { id: 1, title: "Read React notes", category: "Study", completed: false },
+  { id: 2, title: "Practice components", category: "Coding", completed: false },
+  { id: 3, title: "Submit homework", category: "School", completed: false }
 ];
 
   return (
