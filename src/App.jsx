@@ -7,10 +7,11 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
 
-const initialTasks = [
-  { id: 1, title: "Read React notes", category: "Study", completed: false },
-  { id: 2, title: "Practice components", category: "Coding", completed: false },
-  { id: 3, title: "Submit homework", category: "School", completed: false }
+const ShoppingItems = [
+  { id: 1, name: "Milk", quantity: "1 bottle", bought: false },
+  { id: 2, name: "Bread", quantity: "2 loaves", bought: false },
+  { id: 3, name: "Eggs", quantity: "12 pieces", bought: false },
+  { id: 4, name: "Apples", quantity: "1 kg", bought: false }
 ];
 
   return (
