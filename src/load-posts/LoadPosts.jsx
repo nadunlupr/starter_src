@@ -1,4 +1,5 @@
-import { useEffect, useState } from "react";
+// users API: https://jsonplaceholder.typicode.com/users
+// posts API: https://jsonplaceholder.typicode.com/posts?userId=2
 
 export default function LoadPosts(props) {
     const initState = {
